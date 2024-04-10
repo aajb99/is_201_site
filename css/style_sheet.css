@@ -1,0 +1,67 @@
+/* 
+Aaron Brown
+IS 201
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #2c3d4a;
+    background-color: ivory;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold; */
+}
+a:visited {
+    color: #1c2357;
+}
+.resume_list_heading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+
+.homebg {
+    background-image: url('../images/20220722_124650.jpg');
+    background-size: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    border: 1px solid darkblue;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 20px;
+}
+
+.image-container {
+    display: inline-block; /* or use "flex" for a flexible layout */
+    margin-right: 5px; /* Optional margin between images */
+    margin-bottom: 10px; /* bottom margins */
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    display: flex;
+}
