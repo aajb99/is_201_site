@@ -7,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #2c3d4a;
-    background-color: ivory;
+    /* background-color: ivory; */
 }
 li {
     font-size: 14px;
@@ -23,21 +23,25 @@ a:hover {
     /* font-weight: bold; */
 }
 a:visited {
-    color: #1c2357;
+    color: #212a71;
 }
 .resume_list_heading {
     font-weight: bold;
     font-style: normal;
 }
 .underline {text-decoration: underline;}
+.underline_full {
+    border-bottom: solid 1px #1a1a62;
+}
 .bold {font-weight: bold;}
 .justify {text-align: justify;}
 
 .homebg {
-    background-image: url('../images/20220722_124650.jpg');
+    background-image: url('../assets/img/sky_background.jpg');
     background-size: 100%;
     background-position: top right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .box1 {
@@ -61,6 +65,9 @@ a:visited {
 }
 .text-center {
     text-align: center;
+}
+.padding-left {
+    padding-left: 100px;
 }
 .container {
     display: flex;
