@@ -15,7 +15,7 @@ li {
     font-weight: normal;
 }
 a {
-    color: cadetblue;
+    /* color: cadetblue; */
     text-decoration: none;
 }
 a:hover {
